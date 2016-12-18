@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ScrollView
+        android:id="@+id/detail_general_list"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:descendantFocusability="beforeDescendants">
+
+        <RelativeLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"
+            tools:context="fr.esiea.et.vetra.VetraSeriesDetail"
+            tools:showIn="@layout/activity_vetra_series_detail">
+
+            <ImageView
+                android:layout_width="300dp"
+                android:minHeight="150dp"
+                android:adjustViewBounds="true"
+                android:id="@+id/detail_image"
+                android:layout_height="wrap_content"
+                android:contentDescription="image of series"
+                android:layout_marginTop="50dp"/>
+
+            <TextView
+                android:id="@+id/detail_productor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ololololololol"
+
+                android:textAppearance="?android:attr/textAppearanceListItemSmall"
+                android:paddingStart="?android:attr/listPreferredItemPaddingStart"
+                android:paddingEnd="?android:attr/listPreferredItemPaddingEnd"
+
+                android:layout_below="@+id/detail_creator"
+                android:layout_alignStart="@+id/detail_creator"/>
+
+            <TextView
+                android:id="@+id/detail_language"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ololololololol"
+
+                android:textAppearance="?android:attr/textAppearanceListItemSmall"
+                android:paddingStart="?android:attr/listPreferredItemPaddingStart"
+                android:paddingEnd="?android:attr/listPreferredItemPaddingEnd"
+
+                android:layout_below="@+id/detail_productor"
+                android:layout_alignStart="@+id/detail_productor"/>
+
+            <TextView
+                android:id="@+id/detail_network"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ololololololol"
+
+                android:textAppearance="?android:attr/textAppearanceListItemSmall"
+                android:paddingStart="?android:attr/listPreferredItemPaddingStart"
+                android:paddingEnd="?android:attr/listPreferredItemPaddingEnd"
+
+                android:layout_below="@+id/detail_language"
+                android:layout_alignStart="@+id/detail_language"/>
+
+            <TextView
+                android:id="@+id/detail_synopsis"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ololololololol"
+
+                android:textAppearance="?android:attr/textAppearanceListItemSmall"
+                android:paddingStart="?android:attr/listPreferredItemPaddingStart"
+                android:paddingEnd="?android:attr/listPreferredItemPaddingEnd"
+
+                android:layout_below="@+id/detail_image"
+                android:layout_alignStart="@+id/detail_image"/>
+
+            <TextView
+                android:id="@+id/detail_seasonInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ololololololol"
+
+                android:textAppearance="?android:attr/textAppearanceListItemSmall"
+                android:paddingStart="?android:attr/listPreferredItemPaddingStart"
+                android:paddingEnd="?android:attr/listPreferredItemPaddingEnd"
+
+                android:layout_below="@+id/detail_synopsis"
+                android:layout_alignStart="@+id/detail_synopsis"/>
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/detail_list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/detail_seasonInfo"
+                android:layout_alignStart="@+id/detail_seasonInfo"/>
+
+            <TextView
+                android:id="@+id/detail_creator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ololololololol"
+
+                android:layout_marginTop="90dp"
+
+
+                android:textAppearance="?android:attr/textAppearanceListItemSmall"
+                android:paddingStart="?android:attr/listPreferredItemPaddingStart"
+                android:paddingEnd="?android:attr/listPreferredItemPaddingEnd"
+
+                android:layout_alignParentTop="true"
+                android:layout_toEndOf="@+id/detail_image"/>
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

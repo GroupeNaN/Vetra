@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Vetra</string>
+    <string name="action_refresh">Recharger la base de données</string>
+    <string name="open_website">Ouvrir le site web</string>
+    <string name="toggle_fav">Ajouter ou Retirer des favoris</string>
+    <string name="format_date">dd/MM/yyyy</string>
+    <string name="url_translation">language=fr-FR</string>
+    <string name="start_refresh">Mise à jour de la base de données</string>
+    <string name="no_network_error">Connexion au réseau impossible!</string>
+    <string name="network_error">Connexion impossible, l\'API semble hors-ligne!</string>
+    <string name="parse_error">Impossible d\'analyser les données en ligne, l\'API ou la connexion Internet sont peut-être instables!</string>
+    <string name="search_hint">Cherchez votre série</string>
+    <string name="tab_favs">Favoris</string>
+    <string name="tab_soon">Populaire</string>
+    <string name="detail_createdby">Créateur : </string>
+    <string name="detail_producedby">Producteur : </string>
+    <string name="detail_language">Langue : </string>
+    <string name="detail_network">Diffusé par : </string>
+    <string name="detail_synopsis">Synopsis : </string>
+    <string name="detail_seasons">Saisons : </string>
+    <string name="detail_episodes"> épisodes</string>
+    <string name="detail_season">Saison </string>
+    <string name="detail_aired_on">Diffusé le : </string>
+    <string name="aired_since">Diffusé depuis</string>
+    <string name="notif_refresh_over_title">Mise à jour terminée</string>
+    <string name="notif_refresh_over_content">La mise à jour de la base de données est terminée!</string>
+    <string name="easter_egg_1">AAAAAAAAHHHHHHHHH!</string>
+    <string name="easter_egg_2">Arrêtez tout de suite! Je vais être malade!</string>
+    <string name="easter_egg_3">Je ne suis pas un jouet! Je suis un miracle d\'ingienérie. Posez moi tout de suite!</string>
+    <string name="genres">eyJnZW5yZXMiOlt7ImlkIjoxMDc1OSwibmFtZSI6IkFjdGlvbiAmIEFkdmVudHVyZSJ9LHsiaWQiOjE2LCJuYW1lIjoiQW5pbWF0aW9uIn0seyJpZCI6MzUsIm5hbWUiOiJDb23DqWRpZSJ9LHsiaWQiOjgwLCJuYW1lIjoiQ3JpbWUifSx7ImlkIjo5OSwibmFtZSI6IkRvY3VtZW50YWlyZSJ9LHsiaWQiOjE4LCJuYW1lIjoiRHJhbWUifSx7ImlkIjoxMDc1MSwibmFtZSI6IkZhbWlsaWFsIn0seyJpZCI6MTA3NjIsIm5hbWUiOiJLaWRzIn0seyJpZCI6OTY0OCwibmFtZSI6Ik15c3TDqHJlIn0seyJpZCI6MTA3NjMsIm5hbWUiOiJOZXdzIn0seyJpZCI6MTA3NjQsIm5hbWUiOiJSZWFsaXR5In0seyJpZCI6MTA3NjUsIm5hbWUiOiJTY2llbmNlLUZpY3Rpb24gJiBGYW50YXN0aXF1ZSJ9LHsiaWQiOjEwNzY2LCJuYW1lIjoiU29hcCJ9LHsiaWQiOjEwNzY3LCJuYW1lIjoiVGFsayJ9LHsiaWQiOjEwNzY4LCJuYW1lIjoiV2FyICYgUG9saXRpY3MifSx7ImlkIjozNywibmFtZSI6Ildlc3Rlcm4ifV19</string>
+    <string name="alert_removeFavs_title">Retrait des favoris</string>
+    <string name="alert_removeFavs_content">Êtes vous sûr de vouloir retirer cette série de vos favoris ?</string>
+    <string name="alert_removeFavs_yes">Oui</string>
+    <string name="alert_removeFavs_no">Annuler</string>
+
+</resources>
